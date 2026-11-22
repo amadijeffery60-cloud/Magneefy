@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import articles as A
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE_URL = "https://www.magneefy.com"
+SITE_URL = "https://amadijeffery60-cloud.github.io/Magneefy"  # change to your own domain when you have one
 CONTACT_EMAIL = "hello@magneefy.com"
 YEAR_START = 2026
 

@@ -34,4 +34,4 @@ Styles: `assets/css/style.css` · Behaviour: `assets/js/main.js`.
 3. **Form backend**: the contact form opens the visitor's email app by default. To receive submissions directly, set `data-endpoint` on `#contact-form` (in `build_contact()`) to a Formspree, Basin or similar form endpoint.
 4. **Newsletter**: the Insights signup only validates in the browser. Connect it to your email platform (Mailchimp, ConvertKit, etc.).
 5. **Social share images**: article featured images are SVG, which Facebook, LinkedIn and X won't show in link previews. Export PNG versions for `og:image` if you want image previews when articles are shared.
-6. **Domain**: set `SITE_URL` in `_src/build.py` (used for canonical URLs and `sitemap.xml`), and the LinkedIn URL in the footer.
+6. **Domain**: the site is set up for GitHub Pages at https://amadijeffery60-cloud.github.io/Magneefy/. When you connect your own domain, update `SITE_URL` in `_src/build.py` (used for canonical URLs and `sitemap.xml`) and rebuild. Also set the LinkedIn URL in the footer.
